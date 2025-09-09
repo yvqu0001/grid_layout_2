@@ -1,0 +1,60 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: #fcf9ec;
+  color: #c45311;
+  font-family: helvetica neue, Arial, sans-serif;
+  margin: 1em;
+  padding: 1em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.section {
+  display: grid;
+  gap: 10px;
+}
+
+@media (width>=500px) {
+  .section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*.main {
+  background-color: #fbd3c1;
+  margin-top: 0;
+  margin-bottom: 8em;
+  padding: 2em;
+  padding-top: 10em;
+}
+.main {
+  position: relative;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  background-color: #fbd3c1;
+  padding: 60%;
+  margin: -10%;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  line-height: 3em;
+  margin: 0;
+  font-size: 2em;
+}
+*/
